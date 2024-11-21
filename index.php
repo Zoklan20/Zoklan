@@ -17,7 +17,6 @@ $result = $conn->query($sql);  // Execute the query
   </head>
   <body>
     <h1>Task List</h1>
-
 <?php 
 while ($task = $result->fetch_assoc()): 
 ?>
